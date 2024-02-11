@@ -6,16 +6,16 @@ import { ChatRequetService } from '@app/chatbox/request/ChatRequest.service';
 
 @Component({
   selector: 'app-chat-button',
+  templateUrl: './oav-chat-button.component.html',
+  styleUrls: [
+    './oav-chat-button.component.scss',
+  ],
+  encapsulation: ViewEncapsulation.ShadowDom,
   standalone: true,
   imports: [
     CommonModule,
     ChatboxModule,
   ],
-  templateUrl: './oav-chat-button.component.html',
-  styleUrls: [
-    './oav-chat-button.component.scss',
-  ],
-  encapsulation: ViewEncapsulation.ShadowDom
 })
 export class OAVChatButtonComponent {
 
